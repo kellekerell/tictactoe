@@ -87,7 +87,7 @@ def winner():
             else:
                 print(f"{player2name} won! GG!")
                 input()
-    if fieldchart[0][0] != " ": #VERTIKAL
+    if fieldchart[0][0] != " ": #VERTICAL
         if fieldchart[0][0] == fieldchart[1][0] and fieldchart[0][0] == fieldchart[2][0]:
             gameison = False
             if fieldchart[0][0] == "X":
@@ -96,7 +96,7 @@ def winner():
             else:
                 print(f"{player2name} won! GG!")
                 input()
-    if fieldchart[0][1] != " ": #VERTIKAL
+    if fieldchart[0][1] != " ": #VERTICAL
         if fieldchart[0][1] == fieldchart[1][1] and fieldchart[0][1] == fieldchart[2][1]:
             gameison = False
             if fieldchart[0][1] == "X":
@@ -105,7 +105,7 @@ def winner():
             else:
                 print(f"{player2name} won! GG!")
                 input()
-    if fieldchart[0][2] != " ": #VERTIKAL
+    if fieldchart[0][2] != " ": #VERTICAL
         if fieldchart[0][2] == fieldchart[1][2] and fieldchart[0][2] == fieldchart[2][2]:
             gameison = False
             if fieldchart[0][2] == "X":
